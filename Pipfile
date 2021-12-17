@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi-org-simple"
+
+[packages]
+gradio = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+
+[dev-packages]
+jupyterlab = "*"
+
+[requires]
+python_version = "3.8"
+
+[thoth]
+disable_index_adjustment = false
+
+[thoth.allow_prereleases]
